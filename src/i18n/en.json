@@ -1,0 +1,357 @@
+{
+  "brand": {
+    "name": "The Passionate Brownie",
+    "line1": "The Passionate",
+    "line2": "Brownie",
+    "tagline": "Homemade healthy brownies · Chennai",
+    "logoAlt": "The Passionate Brownie"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Menu",
+    "build": "Build Your Box",
+    "about": "Our Story",
+    "gallery": "Gallery",
+    "track": "Track Order",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "Cart",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "skip": "Skip to main content",
+    "language": "Choose language"
+  },
+  "offer": {
+    "label": "Offer",
+    "cta": "Shop now"
+  },
+  "common": {
+    "addToCart": "Add",
+    "addToCartFull": "Add to cart",
+    "added": "Added!",
+    "soldOut": "Sold out",
+    "viewAll": "See the full menu",
+    "whatsapp": "WhatsApp",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "backToShop": "Back to menu",
+    "continueShopping": "Keep shopping",
+    "loading": "Loading…",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "optional": "optional",
+    "sampleNote": "Illustration — real photos coming soon",
+    "samplePrice": "Sample price",
+    "cartWithCount": "Cart, {count} pieces",
+    "buildBox": "Build box",
+    "off": "{pct}% off"
+  },
+  "units": {
+    "piece": "per piece",
+    "box": "per box",
+    "slab": "per slab",
+    "pack": "per pack",
+    "jar": "per jar",
+    "tub": "per tub",
+    "cake": "per cake",
+    "tin": "per tin"
+  },
+  "tags": {
+    "bestseller": "Bestseller",
+    "healthy": "Healthy",
+    "new": "New"
+  },
+  "seo": {
+    "home": { "title": "The Passionate Brownie — Homemade Healthy Brownies in Chennai", "desc": "Homemade brownies in Chennai with no preservatives: classic, Oreo, Nutella, triple chocolate and healthy ragi, kambu and wheat brownies. Build your box and order on WhatsApp." },
+    "shop": { "title": "Brownie Menu & Prices in Chennai | The Passionate Brownie", "desc": "Brownies from ₹55 per piece. Classic, indulgent and healthy millet brownies, assorted boxes, slabs, jars, lava brownies, cakes, cupcakes and cookie tins." },
+    "build": { "title": "Build Your Own Brownie Box | The Passionate Brownie, Chennai", "desc": "Fill a 4-piece (₹260) or 6-piece (₹390) box with your favourite brownies and order on WhatsApp." },
+    "about": { "title": "Our Story | The Passionate Brownie, Chennai", "desc": "A certified home baker in Chennai making healthy, preservative-free brownies with love." },
+    "gallery": { "title": "Gallery | The Passionate Brownie", "desc": "Brownies, boxes, cakes and cookie tins from our Chennai home kitchen." },
+    "contact": { "title": "Contact & Bulk Orders | The Passionate Brownie, Chennai", "desc": "Birthdays, return gifts, office orders and custom boxes — send an enquiry on WhatsApp." },
+    "faq": { "title": "FAQ | The Passionate Brownie", "desc": "Ordering, delivery in Chennai, payment, shelf life and healthy options — your questions answered." },
+    "track": { "title": "Track Your Order | The Passionate Brownie", "desc": "Check your order status with your order ID and phone number." },
+    "cart": { "title": "Your Cart | The Passionate Brownie", "desc": "Review your brownie order." },
+    "checkout": { "title": "Checkout | The Passionate Brownie", "desc": "Enter delivery details and send your order on WhatsApp." },
+    "success": { "title": "Order placed | The Passionate Brownie", "desc": "Thank you for your order." },
+    "notFound": { "title": "Page not found | The Passionate Brownie", "desc": "This page has been eaten." }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Homemade in Chennai",
+      "title": "Fudgy brownies, baked with passion",
+      "subtitle": "Healthy, homemade and with zero preservatives. From classic and Oreo to ragi and kambu — every brownie is baked fresh for you.",
+      "cta": "Order brownies",
+      "build": "Build your box",
+      "from": "From ₹{price} per piece",
+      "artAlt": "Illustration of a tall stack of brownies with a heart on top, a cookie and a cupcake"
+    },
+    "trust": {
+      "title": "Why you'll love us",
+      "noPreservatives": "No Preservatives",
+      "fssai": "FSSAI Certified",
+      "baker": "Certified Baker",
+      "homemade": "Homemade Healthy"
+    },
+    "flavours": { "eyebrow": "Fresh from the oven", "title": "Pick your flavour", "subtitle": "Every brownie is priced per piece. Mix and match as many as you like." },
+    "box": {
+      "eyebrow": "Our signature",
+      "title": "Build your own box",
+      "text": "Choose 4 or 6 brownies, watch your box fill up, and we'll pack it with love.",
+      "four": "4 pieces",
+      "six": "6 pieces",
+      "cta": "Start building"
+    },
+    "healthy": {
+      "eyebrow": "Good-for-you treats",
+      "title": "Healthy brownies, same fudgy joy",
+      "text": "Made with wheat, kambu, ragi and health mix instead of maida. The kind of brownie you can say yes to more often.",
+      "cta": "See healthy brownies"
+    },
+    "categories": { "eyebrow": "More to love", "title": "Explore the menu" },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "A home kitchen full of chocolate",
+      "text": "The Passionate Brownie is a home bakery in Chennai run by a certified baker who believes treats can be both indulgent and wholesome.",
+      "cta": "Read our story"
+    },
+    "how": {
+      "title": "Ordering is easy",
+      "s1": { "title": "Pick", "text": "Add brownies or build a box." },
+      "s2": { "title": "Send", "text": "Your order opens in WhatsApp, ready to send." },
+      "s3": { "title": "Pay", "text": "We confirm and share UPI details." },
+      "s4": { "title": "Enjoy", "text": "Fresh brownies at your door in Chennai." }
+    },
+    "instagram": {
+      "eyebrow": "Say hi on Instagram",
+      "title": "Follow {handle}",
+      "text": "New flavours, behind-the-scenes and special offers.",
+      "cta": "Follow on Instagram"
+    },
+    "cta": { "title": "Planning a party or a gift?", "text": "Birthdays, return gifts, office treats — tell us what you need.", "button": "Send an enquiry" }
+  },
+  "shop": {
+    "title": "The menu",
+    "subtitle": "Brownies are priced per piece. Everything is baked fresh to order.",
+    "all": "All",
+    "search": "Search",
+    "searchPlaceholder": "Search ragi, Oreo, cake…",
+    "sort": "Sort by",
+    "sortFeatured": "Featured",
+    "sortPriceLow": "Price: low to high",
+    "sortPriceHigh": "Price: high to low",
+    "sortName": "Name: A to Z",
+    "results": "{count} treats",
+    "resultsOne": "1 treat",
+    "empty": "Nothing matches that. Try another word?",
+    "clear": "Clear filters",
+    "categories": "Categories"
+  },
+  "product": {
+    "shelfLife": "Shelf life",
+    "storage": "Storage",
+    "storageText": "Keep in an airtight box in a cool place. In Chennai heat, the fridge is best — warm for 10 seconds before eating.",
+    "delivery": "Delivery",
+    "deliveryText": "Flat ₹{charge} anywhere in Chennai.",
+    "category": "Category",
+    "buyNow": "Buy now",
+    "related": "You may also like",
+    "soldOutText": "This one is sold out right now. Message us on WhatsApp to pre-order.",
+    "askWhatsapp": "Ask on WhatsApp",
+    "askMessage": "Hi The Passionate Brownie! I'd like to know more about: {name}",
+    "samplePriceNote": "Sample price — final price will be confirmed on WhatsApp.",
+    "boxNote": "Choose your flavours on the next page.",
+    "mrp": "Was ₹{mrp}"
+  },
+  "build": {
+    "title": "Build your box",
+    "subtitle": "Pick your size, then tap flavours to fill it up.",
+    "size": "Box size",
+    "sizeOption": "{count} pieces · ₹{price}",
+    "flavours": "Choose flavours",
+    "progress": "{filled} of {size} filled",
+    "full": "Your box is full! 🎉",
+    "remaining": "Add {count} more",
+    "surprise": "Surprise me",
+    "clear": "Empty box",
+    "add": "Add box to cart",
+    "added": "Box added!",
+    "slotEmpty": "Empty slot",
+    "slotLabel": "Slot {n}: {name}",
+    "removeOne": "Remove one {name}",
+    "addOne": "Add one {name}",
+    "boxAria": "Your box",
+    "saving": "You save ₹{amount} compared with single pieces",
+    "contents": "In the box"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty. Let's fix that!",
+    "emptyCta": "See the menu",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery",
+    "total": "Total",
+    "pieces": "Total pieces",
+    "checkout": "Proceed to checkout",
+    "summary": "Order summary",
+    "bulkNotice": "Yay, {count} pieces! Orders of more than {threshold} pieces need at least {days} days' notice so we can bake everything fresh.",
+    "noPayment": "No online payment. We'll confirm on WhatsApp and share UPI details."
+  },
+  "checkout": {
+    "title": "Delivery details",
+    "subtitle": "Fill this in and we'll open WhatsApp with your order ready to send.",
+    "name": "Full name",
+    "phone": "Phone number",
+    "phoneHint": "10-digit mobile number",
+    "address": "Delivery address",
+    "addressHint": "Door no., street, area",
+    "pincode": "Pincode",
+    "pincodeHint": "We deliver across Chennai",
+    "date": "Delivery date",
+    "dateHint": "Earliest: {date}",
+    "note": "Note",
+    "notePlaceholder": "e.g. Slab flavour, or a name for the cake: Happy Birthday Priya!",
+    "submit": "Place order on WhatsApp",
+    "submitting": "Placing order…",
+    "fixErrors": "Please fix the highlighted fields.",
+    "errors": {
+      "name": "Please enter your name.",
+      "phone": "Enter a valid 10-digit Indian mobile number.",
+      "address": "Please enter your full address.",
+      "pincode": "Enter a 6-digit Chennai pincode (starts with {prefixes}).",
+      "date": "Please choose a delivery date.",
+      "dateTooSoon": "Please pick {date} or later.",
+      "dateTooFar": "Please choose a date within the next {days} days."
+    },
+    "emptyCart": "Your cart is empty. Add something sweet first!"
+  },
+  "success": {
+    "title": "Yay! Your order is placed",
+    "orderId": "Your order ID",
+    "text": "WhatsApp should have opened with your order. Please press send so we receive it. We'll confirm and share UPI details there.",
+    "notOpened": "WhatsApp didn't open?",
+    "sendAgain": "Send order on WhatsApp",
+    "track": "Track your order",
+    "saveId": "Save this ID to track your order later.",
+    "missing": "We couldn't find this order on this device."
+  },
+  "track": {
+    "title": "Track your order",
+    "subtitle": "Enter your order ID and the phone number you used.",
+    "orderId": "Order ID",
+    "orderIdPlaceholder": "PB-0001",
+    "phone": "Phone number",
+    "submit": "Check status",
+    "notFound": "We couldn't find an order with that ID and phone number. Please check and try again.",
+    "invalid": "Please enter an order ID like PB-0001 and a 10-digit phone number.",
+    "statusFor": "Order {id}",
+    "deliveryOn": "Delivery date: {date}",
+    "demo": "Demo: try PB-0101 or PB-0102 with phone 9876543210.",
+    "steps": {
+      "received": "Received",
+      "confirmed": "Confirmed",
+      "preparing": "Baking",
+      "out_for_delivery": "On the way",
+      "delivered": "Delivered"
+    },
+    "stepText": {
+      "received": "We've got your order!",
+      "confirmed": "Payment confirmed — thank you!",
+      "preparing": "Your brownies are in the oven.",
+      "out_for_delivery": "Your box is on its way.",
+      "delivered": "Delivered. Enjoy every bite!"
+    },
+    "current": "Current status"
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "Baked with passion, in a Chennai home kitchen",
+    "placeholder": "Placeholder story — the client will share the real one.",
+    "p1": "The Passionate Brownie began with one simple wish: brownies that taste amazing and are made with ingredients you can trust.",
+    "p2": "Every batch is baked at home by a certified baker, with no preservatives. Alongside the classics, we bake healthy brownies with wheat, kambu, ragi and health mix — so there's a brownie for everyone in the family.",
+    "p3": "From one tray for friends to boxes for birthdays across Chennai, our little kitchen keeps growing — one happy bite at a time.",
+    "values": {
+      "title": "What we stand for",
+      "v1": { "title": "Nothing artificial", "text": "No preservatives. Baked fresh for every order." },
+      "v2": { "title": "Healthy choices", "text": "Millets, wheat and ragi for brownies you can enjoy more often." },
+      "v3": { "title": "Certified & safe", "text": "FSSAI certified, made by a certified baker." }
+    },
+    "cta": "Taste the story"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A peek into our kitchen. Real photos are coming soon!",
+    "follow": "See more on Instagram"
+  },
+  "contact": {
+    "title": "Let's talk brownies",
+    "subtitle": "Birthdays, return gifts, office orders or a custom box — send an enquiry and we'll reply on WhatsApp.",
+    "formTitle": "Send an enquiry",
+    "name": "Your name",
+    "phone": "Phone number",
+    "type": "What is it for?",
+    "types": {
+      "general": "General question",
+      "bulk": "Bulk / office order",
+      "birthday": "Birthday or party",
+      "return": "Return gifts",
+      "custom": "Custom box or cake"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Tell us the occasion, quantity and date…",
+    "submit": "Send on WhatsApp",
+    "sent": "Thank you! WhatsApp should have opened with your message. Please press send.",
+    "errors": {
+      "name": "Please enter your name.",
+      "phone": "Enter a valid 10-digit Indian mobile number.",
+      "message": "Please write a short message."
+    },
+    "reach": "Reach us",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "instagram": "Instagram",
+    "location": "Location",
+    "locationText": "Home bakery in Chennai · delivery across Chennai",
+    "hours": "Hours"
+  },
+  "faq": {
+    "title": "Questions & answers",
+    "subtitle": "Can't find your answer? Message us on WhatsApp.",
+    "items": [
+      { "q": "How do I order?", "a": "Add brownies to your cart (or build a box), fill in your delivery details and tap \"Place order on WhatsApp\". WhatsApp opens with your full order ready — just press send and we'll confirm." },
+      { "q": "How do I pay?", "a": "There's no payment on the website. Once we confirm your order on WhatsApp, we'll share UPI details. We start baking once payment is received." },
+      { "q": "Where do you deliver?", "a": "Across Chennai for a flat ₹{charge}. Pincodes starting with {prefixes} are accepted." },
+      { "q": "How early should I order?", "a": "Small orders can be delivered from the next day. For more than {threshold} pieces in total, please pick a date at least {days} days ahead so everything is baked fresh." },
+      { "q": "What's in the healthy brownies?", "a": "Our healthy range uses wheat, pearl millet (kambu), ragi or health mix instead of maida. Look for the \"Healthy\" badge." },
+      { "q": "Do you use preservatives?", "a": "No. Everything is homemade with no preservatives, which is why we bake fresh for each order." },
+      { "q": "How long do brownies stay fresh?", "a": "Our brownies have a shelf life of {shelfLife}. Keep them in an airtight box; in Chennai heat the fridge is best. Warm for 10 seconds before eating." },
+      { "q": "How does Build Your Box work?", "a": "Choose a 4-piece (₹260) or 6-piece (₹390) box, tap the flavours you want until the box is full, then add it to your cart. You can mix any flavours." },
+      { "q": "Are you FSSAI certified?", "a": "Yes. Our FSSAI licence number is {fssai}." },
+      { "q": "Can I change or cancel my order?", "a": "Message us on WhatsApp as soon as possible. Changes are possible until we start baking." }
+    ]
+  },
+  "notFound": {
+    "title": "Oops! Someone ate this page",
+    "text": "The page you're looking for isn't here. A brownie might help?",
+    "home": "Go home",
+    "shop": "See the menu"
+  },
+  "footer": {
+    "about": "Homemade healthy brownies with no preservatives, baked with passion in Chennai.",
+    "explore": "Explore",
+    "help": "Help",
+    "contact": "Contact",
+    "fssai": "FSSAI Lic. No. {fssai}",
+    "rights": "© {year} The Passionate Brownie. All rights reserved.",
+    "madeWith": "Baked with love in Chennai"
+  },
+  "mobileBar": {
+    "cart": "Cart",
+    "whatsapp": "WhatsApp",
+    "empty": "Empty"
+  },
+  "wa": {
+    "general": "Hi The Passionate Brownie! I have a question."
+  }
+}

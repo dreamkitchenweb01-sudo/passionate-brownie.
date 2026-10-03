@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFF8F1;
+  --color-blush: #F8DDE2;
+  --color-blush-soft: #FCEDEF;
+  --color-rose: #E58FA0;
+  --color-rose-ink: #A8445A;
+  --color-caramel: #C88A4E;
+  --color-caramel-ink: #8A5526;
+  --color-caramel-soft: #F6E3C8;
+  --color-fudge: #5C3A2A;
+  --color-deep: #3B2218;
+  --color-error: #B3261E;
+  --color-whatsapp: #1A7A43;
+
+  --font-display: "DM Serif Display", "Noto Sans Tamil", Georgia, serif;
+  --font-sans: "Poppins", "Noto Sans Tamil", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --shadow-sticker: 0 6px 0 rgb(59 34 24 / 0.08), 0 14px 30px -14px rgb(59 34 24 / 0.25);
+  --shadow-pop: 0 10px 0 rgb(59 34 24 / 0.1), 0 24px 40px -16px rgb(59 34 24 / 0.35);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    @apply bg-cream font-sans text-fudge antialiased;
+    font-size: 1rem;
+    line-height: 1.65;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+  }
+  html:lang(ta) body {
+    line-height: 1.8;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display font-normal text-deep;
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+  /* Tamil glyphs come from Noto Sans Tamil — give them room and weight */
+  html:lang(ta) h1, html:lang(ta) h2, html:lang(ta) h3, html:lang(ta) h4 {
+    line-height: 1.4;
+    font-weight: 700;
+  }
+  /* Tamil words are long: keep big headings phone-friendly */
+  html:lang(ta) h1 {
+    font-size: clamp(1.75rem, 7vw, 3.1rem) !important;
+  }
+  html:lang(ta) h2 {
+    font-size: clamp(1.5rem, 6vw, 2.5rem) !important;
+  }
+  html:lang(ta) h3 {
+    font-size: clamp(1.05rem, 4.4vw, 1.3rem) !important;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-rose-ink);
+    outline-offset: 3px;
+    border-radius: 10px;
+  }
+  ::selection {
+    background: var(--color-blush);
+    color: var(--color-deep);
+  }
+  input, select, textarea, button {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .container-pb {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Sticker doodle wallpaper; content always sits on solid cards above it */
+  .doodles {
+    position: relative;
+    isolation: isolate;
+  }
+  .doodles::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: url("/doodles.svg");
+    background-size: 400px;
+    opacity: 0.75;
+    pointer-events: none;
+  }
+  .doodles-soft::before {
+    opacity: 0.4;
+  }
+
+  /* Sticker-style card: white, chunky radius, soft "lifted" edge */
+  .sticker {
+    @apply rounded-[1.75rem] border-2 border-deep/10 bg-white shadow-sticker;
+  }
+  .panel {
+    @apply rounded-[1.75rem] bg-cream shadow-sticker;
+  }
+
+  /* Chunky rounded buttons with a pressable bottom edge */
+  .btn {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 py-2.5 text-base font-semibold transition duration-150 select-none;
+  }
+  .btn:active {
+    transform: translateY(2px);
+  }
+  .btn[disabled] {
+    @apply cursor-not-allowed opacity-50;
+  }
+  .btn-rose {
+    @apply bg-rose text-deep shadow-[0_4px_0_#A8445A] hover:brightness-105;
+  }
+  .btn-rose:active {
+    @apply shadow-[0_2px_0_#A8445A];
+  }
+  .btn-choc {
+    @apply bg-deep text-cream shadow-[0_4px_0_#1E110B] hover:bg-fudge;
+  }
+  .btn-choc:active {
+    @apply shadow-[0_2px_0_#1E110B];
+  }
+  .btn-outline {
+    @apply border-2 border-deep bg-white text-deep hover:bg-blush-soft;
+  }
+  .btn-whatsapp {
+    @apply bg-whatsapp text-white shadow-[0_4px_0_#0F4F2A] hover:brightness-110;
+  }
+  .btn-chunky {
+    @apply min-h-14 px-8 text-lg;
+  }
+  .btn-sm {
+    @apply min-h-11 px-4 py-2 text-[0.95rem];
+  }
+
+  .kicker {
+    @apply inline-flex items-center gap-2 rounded-full bg-blush px-3 py-1 text-sm font-semibold text-rose-ink;
+  }
+
+  .pill {
+    @apply inline-flex min-h-11 items-center gap-2 rounded-full border-2 border-deep/15 bg-white px-4 text-[0.95rem] font-semibold text-deep transition hover:border-rose;
+  }
+  .pill[aria-pressed="true"] {
+    @apply border-deep bg-deep text-cream;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full border-2 border-white px-2.5 py-0.5 text-xs font-bold shadow-sm;
+  }
+  .badge-bestseller { @apply bg-rose text-deep; }
+  .badge-healthy { @apply bg-[#CFE5C6] text-[#24461B]; }
+  .badge-new { @apply bg-caramel-soft text-caramel-ink; }
+  .badge-soldout { @apply bg-deep text-cream; }
+  .badge-sample { @apply bg-caramel-soft text-caramel-ink; }
+  .badge-off { @apply bg-deep text-cream; }
+
+  /* Price tag sticker on product cards */
+  .price-tag {
+    @apply inline-flex flex-col items-center rounded-2xl border-2 border-white bg-caramel-soft px-3 py-1 leading-tight text-deep shadow-sticker;
+  }
+
+  .input {
+    @apply block min-h-12 w-full rounded-2xl border-2 border-deep/15 bg-white px-4 py-3 text-base text-deep placeholder:text-[#8C6A5A] transition outline-none focus:border-rose-ink focus:ring-4 focus:ring-rose/30;
+  }
+  .input[aria-invalid="true"] {
+    @apply border-error bg-[#FFF5F4];
+  }
+
+  .link-underline {
+    @apply underline decoration-rose decoration-2 underline-offset-4 hover:decoration-rose-ink;
+  }
+}
+
+/* Gentle entrance animations — only when the visitor hasn't asked for reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1.2);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+  .wobble {
+    animation: pb-wobble 6s ease-in-out infinite;
+  }
+  .pop {
+    animation: pb-pop 0.35s ease;
+  }
+  .drop-in {
+    animation: pb-drop 0.35s cubic-bezier(0.2, 0.8, 0.2, 1.3);
+  }
+}
+@keyframes pb-wobble {
+  0%, 100% { transform: rotate(-1.5deg) translateY(0); }
+  50% { transform: rotate(1.5deg) translateY(-8px); }
+}
+@keyframes pb-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+@keyframes pb-drop {
+  0% { transform: translateY(-24px) scale(0.6); opacity: 0; }
+  100% { transform: none; opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
